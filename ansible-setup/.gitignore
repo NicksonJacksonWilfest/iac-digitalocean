@@ -1,0 +1,43 @@
+# Ansible
+*.retry
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+*.pem
+*.key
+*.pub
+vault.yml
+secrets.yml
+
+# Ansible inventory variables
+groups_vars/**/secrets.yml
+host_vars/**/secrets.yml
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
